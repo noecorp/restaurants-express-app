@@ -1,11 +1,12 @@
 {
-  "name": "_NODE",
+  "name": "demo-mongodb-node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index",
+    "dev": "nodemon index",
+    "log": "nodemon index-log"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +15,10 @@
     "body-parser": "^1.18.2",
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
     "mongodb": "^2.2.33",
-    "mongoose": "^4.13.0"
+    "mongoose": "^4.13.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
